@@ -27,16 +27,16 @@ class IndexController extends Controller
         OpenGraph::setDescription('HOA TIEN sea-golf villas, Khu nghỉ dưỡng và sinh thái biển tự nhiên.
         thỏa mãn mọi giác quan - đất vàng sinh phú quý.' );
         OpenGraph::setTitle('HOA TIEN sea-golf villas');
-        OpenGraph::setUrl('');
+        OpenGraph::setUrl('https://hoatienparadisehatinh.vn/');
         OpenGraph::addProperty('type', 'article');
-        OpenGraph::addImage('');
+        OpenGraph::addImage('https://hoatienparadisehatinh.vn/images/homepage/section-6/sec6bg.png');
 
         TwitterCard::setTitle('HOA TIEN sea-golf villas');
-        TwitterCard::setSite('');
+        TwitterCard::setSite('https://hoatienparadisehatinh.vn/');
 
         JsonLd::setTitle('HOA TIEN sea-golf villas');
         JsonLd::setDescription('HOA TIEN sea-golf villas, thỏa mãn mọi giác quan - đất vàng sinh phú quý.' );
-        JsonLd::addImage('');
+        JsonLd::addImage('https://hoatienparadisehatinh.vn/images/homepage/section-6/sec6bg.png');
 
 
         return view('pages/home-page/index');
