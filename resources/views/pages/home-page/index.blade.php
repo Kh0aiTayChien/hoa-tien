@@ -1,0 +1,12 @@
+@extends('page-layout.master')
+@section('section')
+    @include('pages.home-page.section-1')
+    @include('pages.home-page.section-2')
+    @include('pages.home-page.section-3')
+    @include('pages.home-page.section-4')
+    @include('pages.home-page.section-5')
+    @include('pages.home-page.section-6')
+    @include('pages.home-page.section-7')
+    @include('pages.home-page.section-8')
+    @include('pages.home-page.section-9')
+@stop

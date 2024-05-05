@@ -1,0 +1,110 @@
+/* Định nghĩa font-face */
+@font-face {
+    font-family: 'Mulish-ExtraBold';
+    src: url("/Fonts/Mulish-ExtraBold.ttf");
+}
+@font-face {
+    font-family: 'Montserrat-ExtraBold';
+    src: url("/Fonts/Montserrat-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: 'Mulish-Medium';
+    src: url("/Fonts/Mulish-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'Cabin-Medium';
+    src: url("/Fonts/Cabin-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url("/Fonts/Montserrat-Black.ttf");
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url("/Fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url("/Fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url("/Fonts/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: 'Mulish-SemiBold';
+    src: url("/Fonts/Mulish-SemiBold.ttf");
+}
+
+/* Áp dụng chữ giãn rộng cho các phần tử */
+.Montserrat-ExtraBold{
+    font-family: 'Montserrat-ExtraBold' !important
+}
+.mulish-extrabold{
+    font-family: 'Mulish-ExtraBold' !important
+}
+.shadow-effect {
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.25));
+    letter-spacing: 1px; /* Chữ giãn rộng 1px */
+}
+
+.header {
+    height: 7.5vh;
+    background-color: rgba(255, 255, 255, 1);
+    letter-spacing: 1px; /* Chữ giãn rộng 1px */
+}
+
+.header-mobile {
+    height: 9vh;
+    background-color: white;
+    position: sticky !important;
+    top: 0;
+    z-index: 1020;
+    letter-spacing: 1px; /* Chữ giãn rộng 1px */
+}
+
+.header-content {
+    margin-left: 14vw;
+    margin-right: 9.11vw;
+    height: 100%;
+    letter-spacing: 1px; /* Chữ giãn rộng 1px */
+}
+
+.header-list {
+    right: 0;
+    width: 100%;
+    color: #105181;
+    font-family: 'Montserrat-ExtraBold';
+    letter-spacing: 1px; /* Chữ giãn rộng 1px */
+}
+
+.btn-contact {
+    background-color: #207143;
+    border: hidden;
+    border-radius: 3px;
+    color: white;
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 12px;
+    letter-spacing: 1px; /* Chữ giãn rộng 1px */
+}
+
+.btn-transparent {
+    background-color: transparent;
+    border: hidden;
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 12px;
+    letter-spacing: 1px; /* Chữ giãn rộng 1px */
+}
+.btn-white {
+    background-color: white;
+    border: hidden;
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 12px;
+    letter-spacing: 1px; /* Chữ giãn rộng 1px */
+}
