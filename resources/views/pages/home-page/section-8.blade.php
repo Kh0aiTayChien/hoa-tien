@@ -65,7 +65,41 @@
                          alt="" style="width: 65%">
 
                 </div>
+                <div class="d-flex justify-content-center">
 
+                    <img class="rounded-custom img-fluid shadow-effect"
+                         src="{{asset('images/homepage/section-8/9.png')}}"
+                         alt="" style="width: 65%">
+
+                </div>
+                <div class="d-flex justify-content-center">
+
+                    <img class="rounded-custom img-fluid shadow-effect"
+                         src="{{asset('images/homepage/section-8/10.png')}}"
+                         alt="" style="width: 65%">
+
+                </div>
+                <div class="d-flex justify-content-center">
+
+                    <img class="rounded-custom img-fluid shadow-effect"
+                         src="{{asset('images/homepage/section-8/11.png')}}"
+                         alt="" style="width: 65%">
+
+                </div>
+                <div class="d-flex justify-content-center">
+
+                    <img class="rounded-custom img-fluid shadow-effect"
+                         src="{{asset('images/homepage/section-8/12.png')}}"
+                         alt="" style="width: 65%">
+
+                </div>
+                <div class="d-flex justify-content-center">
+
+                    <img class="rounded-custom img-fluid shadow-effect"
+                         src="{{asset('images/homepage/section-8/13.png')}}"
+                         alt="" style="width: 65%">
+
+                </div>
             </div>
         </div>
         <script>

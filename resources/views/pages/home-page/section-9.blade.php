@@ -1,6 +1,6 @@
 <div class="section-9 ">
     <div class="position-absolute ">
-        <div class="btn btn-outline-info p-1 border-3 ms-3" style="border-color: #20715E; transform: translateY(-215%)">
+        <div class="btn btn-outline-info p-1 border-3 ms-3 vr360" style="border-color: #20715E; transform: translateY(-215%)">
             <div class="btn mulish-extrabold px-4 btn-long"
                  style="background-color: #20715E;
                  font-size: 15px; color: #fff;">
@@ -24,3 +24,10 @@
         width: 300px;
     }
 </style>
+<script>
+    $(document).ready(function(){
+        $(".vr360").click(function(){
+            window.open("https://digisky.net/360/HoaTienParadise/", "_blank");
+        });
+    });
+</script>

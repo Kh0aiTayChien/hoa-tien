@@ -24,14 +24,14 @@
             <div class="row">
                 <div class="col-md-6 col-xs-12">
                     <div class="form-group contact-form  mt-3">
-                        <label for="contact_name Montserrat-ExtraBold" class=" text-white" style="font-size: 13px; font-family: Montserrat-ExtraBold">
+                        <label for="contact_name Montserrat-ExtraBold" class="text-white" style="font-size: 13px; font-family: Montserrat-ExtraBold">
                             HỌ VÀ TÊN
                         </label>
                         <br>
                         <input type="text" name="name" id="fullname" class="mt-3">
                     </div>
                     <div class="form-group contact-form mt-3">
-                        <label for="contact_phone" class=" Montserrat-ExtraBold text-white" style="font-size: 13px">
+                        <label for="contact_phone" class="Montserrat-ExtraBold text-white" style="font-size: 13px">
                             SỐ ĐIỆN THOẠi
                         </label>
                         <br>
@@ -49,21 +49,19 @@
                             YÊU CẦU CHI TIẾT
                         </label>
                         <br>
-                        <textarea type="text" name="detail" id="contact_content" class="text-area">                        </textarea>
+                        <textarea type="text" name="detail" id="detail" class="text-area"></textarea>
                         <br>
                         <div class="mt-5 d-none d-md-block" style="width: 80%">
-                            <div class="btn btn-outline-info p-1 border-3 ms-3" style="border-color: white">
+                            <button class="btn btn-outline-info p-1 border-3 ms-3" style="border-color: white" type="submit">
                                 <div class="btn Montserrat-ExtraBold px-4" style="background-color: white; font-size: 15px; color: #207143">
                                     NHẬN THÔNG TIN TƯ VẤN</div>
-                            </div>
+                            </button>
                         </div>
                         <div class="mt-5 d-block d-md-none" style="">
-                            <div class="">
-                                <div class="btn btn-outline-info p-1 border-3 ms-3" style="border-color: white">
-                                    <div class="btn Montserrat-ExtraBold px-4" style="background-color: white; font-size: 15px; color: #207143">
-                                        NHẬN THÔNG TIN TƯ VẤN</div>
-                                </div>
-                            </div>
+                            <button class="btn btn-outline-info p-1 border-3 ms-3" style="border-color: white" type="submit">
+                                <div class="btn Montserrat-ExtraBold px-4" style="background-color: white; font-size: 15px; color: #207143">
+                                    NHẬN THÔNG TIN TƯ VẤN</div>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -203,3 +201,57 @@
         }
     }
 </style>
+<script>
+    $('#registration-form').submit(function (e) {
+        e.preventDefault();
+        let fullname = $('#fullname').val();
+        let phone = $('#phone').val();
+        let email = $('#email').val();
+        let detail = $('#detail').val();
+        let csrfToken = $('meta[name="csrf-token"]').attr('content');
+        alert('Bạn đã gửi thông tin thành công');
+        $('#fullname').val('');
+        $('#phone').val('');
+        $('#email').val('');
+        $('#detail').val('');
+        $.ajax({
+            url: "{{ route('sheet') }}",
+            method: "POST",
+            data: {
+                name: fullname,
+                phone: phone,
+                detail: detail,
+                email: email
+            },
+            headers: {
+                'X-CSRF-TOKEN': csrfToken
+            },
+            success: function(response){
+
+            },
+            error: function(xhr, status, error){
+                var errorMessage = xhr.status + ': ' + xhr.statusText;
+                $("#error-message").text(errorMessage).removeClass('d-none');
+            }
+        });
+        $.ajax({
+            url: '/send-register', // Thay đổi đường dẫn tới phần xử lý dữ liệu
+            method: 'POST',
+            data: {
+                name: fullname,
+                phone: phone,
+                email: email,
+                detail: detail
+            },
+            headers: {
+                'X-CSRF-TOKEN': csrfToken
+            },
+            success: function (response) {
+                // Xử lý kết quả nếu cần
+            },
+            error: function (xhr, status, error) {
+                console.error(error);
+            }
+        });
+    });
+</script>

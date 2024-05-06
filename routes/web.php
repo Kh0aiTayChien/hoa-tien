@@ -10,6 +10,8 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [IndexController::class, 'index'])->name('homepage.index');
+Route::post('/send-register', [IndexController::class, 'send'])->name('homepage.register.send');
+Route::post("/test",[IndexController::class,'sheet']) ->name('sheet');
 //Route::get('/tai-lieu', [IndexController::class, 'document'])->name('homepage.document');
 //Route::get('/san-pham/{slug}', [ProductController::class, 'show'])->name('homepage.product.show');
 //Auth::routes();
