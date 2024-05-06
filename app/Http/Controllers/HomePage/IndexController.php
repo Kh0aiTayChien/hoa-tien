@@ -21,21 +21,21 @@ class IndexController extends Controller
 {
     public function index(Request $request)
     {
-        SEOMeta::setTitle(' HOA TIEN sea-golf villas');
-        SEOMeta::setDescription('HOA TIEN sea-golf villas, thỏa mãn mọi giác quan - đất vàng sinh phú quý.' );
+        SEOMeta::setTitle(' Dự án Hoa Tiên Paradise');
+        SEOMeta::setDescription('Dự án Hoa Tiên Paradise, thỏa mãn mọi giác quan - đất vàng sinh phú quý.' );
 
-        OpenGraph::setDescription('HOA TIEN sea-golf villas, Khu nghỉ dưỡng và sinh thái biển tự nhiên.
+        OpenGraph::setDescription('Dự án Hoa Tiên Paradise, Khu nghỉ dưỡng và sinh thái biển tự nhiên.
         thỏa mãn mọi giác quan - đất vàng sinh phú quý.' );
-        OpenGraph::setTitle('HOA TIEN sea-golf villas');
+        OpenGraph::setTitle('Dự án Hoa Tiên Paradise');
         OpenGraph::setUrl('https://hoatienparadisehatinh.vn/');
         OpenGraph::addProperty('type', 'article');
         OpenGraph::addImage('https://hoatienparadisehatinh.vn/images/homepage/section-6/sec6bg.png');
 
-        TwitterCard::setTitle('HOA TIEN sea-golf villas');
+        TwitterCard::setTitle('Dự án Hoa Tiên Paradise');
         TwitterCard::setSite('https://hoatienparadisehatinh.vn/');
 
-        JsonLd::setTitle('HOA TIEN sea-golf villas');
-        JsonLd::setDescription('HOA TIEN sea-golf villas, thỏa mãn mọi giác quan - đất vàng sinh phú quý.' );
+        JsonLd::setTitle('Dự án Hoa Tiên Paradise');
+        JsonLd::setDescription('Dự án Hoa Tiên Paradise, thỏa mãn mọi giác quan - đất vàng sinh phú quý.' );
         JsonLd::addImage('https://hoatienparadisehatinh.vn/images/homepage/section-6/sec6bg.png');
 
 
