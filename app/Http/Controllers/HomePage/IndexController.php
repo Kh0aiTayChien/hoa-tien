@@ -29,7 +29,7 @@ class IndexController extends Controller
         OpenGraph::setTitle('Dự án Hoa Tiên Paradise');
         OpenGraph::setUrl('https://hoatienparadisehatinh.vn/');
         OpenGraph::addProperty('type', 'article');
-        OpenGraph::addImage('https://hoatienparadisehatinh.vn/images/homepage/section-6/sec6bg.png');
+        OpenGraph::addImage('https://hoatienparadisehatinh.vn/images/homepage/section-6/seo.png');
 
         TwitterCard::setTitle('Dự án Hoa Tiên Paradise');
         TwitterCard::setSite('https://hoatienparadisehatinh.vn/');
