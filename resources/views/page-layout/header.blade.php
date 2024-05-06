@@ -28,15 +28,20 @@
         </div>
     </div>
 
-    <div class="position-absolute shake" style="right: 2%; margin-top: 72vh; ">
+    <div class="position-absolute shake d-none" style="right: 2%; margin-top: 72vh; ">
         <a target="_blank" href="https://zalo.me/0964510901">
-            <img src="{{asset('images/header/zalo.png')}}" alt="" style="scale: 130%">
+            <img src="{{asset('images/header/zalo.png')}}" alt="" style="scale: 90%">
         </a>
     </div>
-    <div class="position-absolute shake" style="left: 2%; margin-top: 80vh; animation: shake 1s infinite;">
+    <div class="position-absolute shake" style="right: 1%; margin-top: 75vh; animation: shake 1s infinite;">
         <a href="tel:0964510901">
             <img src="{{asset('images/header/phone.png')}}" alt="" style="scale: 90%">
         </a>
+    </div>
+    <div class="position-absolute shake" style="right: 2%; margin-top: 85vh;">
+        <button id="scrollToTopBtn" class="btn btn-lg" title="Go to top" style="background-color: #20715E">
+            <i class="fa fa-angle-up button-shake" style="color: #ffffff;"></i>
+        </button>
     </div>
 </div>
 <div class="header-mobile shadow-effect sticky-top d-md-none position-relative">
@@ -44,22 +49,22 @@
         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 48 48">
             <linearGradient id="9iHXMuvV7brSX7hFt~tsna_Rdp3AydLFY2A_gr1" x1="12.066" x2="34.891" y1=".066" y2="22.891"
                             gradientUnits="userSpaceOnUse">
-                <stop offset=".237" stop-color="#3bc9f3"></stop>
-                <stop offset=".85" stop-color="#1591d8"></stop>
+                <stop offset=".237" stop-color="#20715E"></stop>
+                <stop offset=".85" stop-color="#20715E"></stop>
             </linearGradient>
             <path fill="url(#9iHXMuvV7brSX7hFt~tsna_Rdp3AydLFY2A_gr1)"
                   d="M43,15H5c-1.1,0-2-0.9-2-2v-2c0-1.1,0.9-2,2-2h38c1.1,0,2,0.9,2,2v2C45,14.1,44.1,15,43,15z"></path>
             <linearGradient id="9iHXMuvV7brSX7hFt~tsnb_Rdp3AydLFY2A_gr2" x1="12.066" x2="34.891" y1="12.066" y2="34.891"
                             gradientUnits="userSpaceOnUse">
-                <stop offset=".237" stop-color="#3bc9f3"></stop>
-                <stop offset=".85" stop-color="#1591d8"></stop>
+                <stop offset=".237" stop-color="#20715E"></stop>
+                <stop offset=".85" stop-color="#20715E"></stop>
             </linearGradient>
             <path fill="url(#9iHXMuvV7brSX7hFt~tsnb_Rdp3AydLFY2A_gr2)"
                   d="M43,27H5c-1.1,0-2-0.9-2-2v-2c0-1.1,0.9-2,2-2h38c1.1,0,2,0.9,2,2v2C45,26.1,44.1,27,43,27z"></path>
             <linearGradient id="9iHXMuvV7brSX7hFt~tsnc_Rdp3AydLFY2A_gr3" x1="12.066" x2="34.891" y1="24.066" y2="46.891"
                             gradientUnits="userSpaceOnUse">
-                <stop offset=".237" stop-color="#3bc9f3"></stop>
-                <stop offset=".85" stop-color="#1591d8"></stop>
+                <stop offset=".237" stop-color="#20715E"></stop>
+                <stop offset=".85" stop-color="#20715E"></stop>
             </linearGradient>
             <path fill="url(#9iHXMuvV7brSX7hFt~tsnc_Rdp3AydLFY2A_gr3)"
                   d="M43,39H5c-1.1,0-2-0.9-2-2v-2c0-1.1,0.9-2,2-2h38c1.1,0,2,0.9,2,2v2C45,38.1,44.1,39,43,39z"></path>
@@ -95,7 +100,7 @@
             });
         });
     </script>
-    <div class="position-absolute shake" style="right: 2%; margin-top: 75vh; ">
+    <div class="position-absolute shake d-none" style="right: 2%; margin-top: 75vh; ">
         <a href="https://zalo.me/0931189996">
             <img src="{{asset('images/header/zalo.png')}}" alt="" style="">
         </a>
@@ -108,8 +113,8 @@
 </div>
 <div class="menu-dropdown blue-bg d-none">
     <div class="mobile-menu">
-        <div class="text-center header-logo btn-outline-danger">TRANG CHỦ</div>
-        <div class="text-center mt-4 document">TÀI LIỆU</div>
+{{--        <div class="text-center header-logo btn-outline-danger">TRANG CHỦ</div>--}}
+{{--        <div class="text-center mt-4 document">TÀI LIỆU</div>--}}
 {{--        <div class="text-center mt-4">VỀ THẦY NINO</div>--}}
 {{--        <div class="text-center mt-4">CÁC KHÓA HỌC</div>--}}
 {{--        <div class="text-center mt-4">KIẾN THỨC</div>--}}
@@ -121,6 +126,9 @@
 
 </div>
 <style>
+    #scrollToTopBtn {
+        display: none;
+    }
     .mobile-menu {
         font-size: 27px;
         height: 100vh;
@@ -242,4 +250,23 @@
             $('.hide_button').stop().slideToggle(300);
         });
     });
+</script>
+<script>
+    $(document).ready(function(){
+        // Hiển thị hoặc ẩn nút cuộn lên đầu trang
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('#scrollToTopBtn').fadeIn();
+            } else {
+                $('#scrollToTopBtn').fadeOut();
+            }
+        });
+
+        // Cuộn lên đầu trang khi nút được nhấp
+        $('#scrollToTopBtn').click(function(){
+            $('html, body').animate({scrollTop : 0},800);
+            return false;
+        });
+    });
+
 </script>

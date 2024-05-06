@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\HomePage;
 
 use App\Http\Controllers\Controller;
+use App\Mail\RegisterMailable;
 use App\Models\Article;
 use App\Models\Cart;
 use App\Models\Image;
@@ -14,8 +15,11 @@ use Artesaos\SEOTools\Facades\SEOMeta;
 use Artesaos\SEOTools\Facades\TwitterCard;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cookie;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Str;
 use App\Models\Category;
+use Revolution\Google\Sheets\Facades\Sheets;
 
 class IndexController extends Controller
 {
@@ -42,8 +46,37 @@ class IndexController extends Controller
         return view('pages/home-page/index');
     }
 
-    public function document()
+    public function send(Request $request)
     {
-        return view('pages/document/index');
+        $viewData = [
+            'status' => 'register_send',
+        ];
+        $name = $request->name;
+        $phone = $request->phone;
+        $email = $request->email;
+        $detail = $request->detail;
+        Mail::to('chien.hcckt@gmail.com')->send(new RegisterMailable($name, $phone, $email, $detail));
+        return response()->json($viewData);
     }
+
+    public function sheet(Request $request)
+    {
+        Sheets::spreadsheet(config('sheet.spreadsheet_id'));
+
+        $rows = [$request->name, $request->phone, $request->email, $request->detail];
+
+        $rows = array($rows);
+//        try {
+        Sheets::sheet('HOATIENPARADISE')->append($rows);
+        return Redirect::route('create');
+    }
+//        } catch (Exception $e) {
+//            if ($e->getCode() === 400) {
+//                return view('create');
+//            } elseif($e->getCode() === 200) {
+//                return view('create');
+//                session()->flash('message', 'Post successfully updated.');
+//            }
+//        };
+//    }
 }
