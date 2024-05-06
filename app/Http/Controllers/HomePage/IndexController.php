@@ -36,7 +36,7 @@ class IndexController extends Controller
 
         JsonLd::setTitle('Dự án Hoa Tiên Paradise');
         JsonLd::setDescription('Dự án Hoa Tiên Paradise, thỏa mãn mọi giác quan - đất vàng sinh phú quý.' );
-        JsonLd::addImage('https://hoatienparadisehatinh.vn/images/homepage/section-6/sec6bg.png');
+        JsonLd::addImage('https://hoatienparadisehatinh.vn/images/homepage/section-6/seo.png');
 
 
         return view('pages/home-page/index');
