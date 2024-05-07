@@ -55,7 +55,7 @@ class IndexController extends Controller
         $phone = $request->phone;
         $email = $request->email;
         $detail = $request->detail;
-        Mail::to('chien.hcckt@gmail.com')->send(new RegisterMailable($name, $phone, $email, $detail));
+        Mail::to('hoatienparadise20242024@gmail.com')->send(new RegisterMailable($name, $phone, $email, $detail));
         return response()->json($viewData);
     }
 
