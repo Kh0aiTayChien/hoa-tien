@@ -63,7 +63,7 @@ class IndexController extends Controller
     {
         Sheets::spreadsheet(config('sheet.spreadsheet_id'));
 
-        $rows = [$request->name, $request->phone, $request->email, $request->detail];
+        $rows = ["", $request->name, $request->phone, $request->email, $request->detail];
 
         $rows = array($rows);
 //        try {
