@@ -29,13 +29,15 @@
                         </label>
                         <br>
                         <input type="text" name="name" id="fullname" class="mt-3">
+                        <div id="fullname-error" style="display:none; color:red;"></div>
                     </div>
                     <div class="form-group contact-form mt-3">
                         <label for="contact_phone" class="Montserrat-ExtraBold text-white" style="font-size: 13px">
                             SỐ ĐIỆN THOẠi
                         </label>
                         <br>
-                        <input type="text" name="phone" id="phone" class="mt-3">
+                        <input type="text" name="phone" id="phone" class="mt-3" >
+                        <div id="phone-error" style="display:none; color:red;"></div>
                     </div>
                     <div class="form-group contact-form mt-3">
                         <label for="contact_email" class="Montserrat-ExtraBold text-white" style="font-size: 13px">EMAIL</label>
@@ -110,12 +112,12 @@
     </div>
     <div class="about bg-white text-dark montserrat-bold d-none d-md-block" style="font-size: 13px">
         <div class="content py-3" style="color: #207143; height: 100%">
-            Bản quyền 2024 © Hoa Tiên paradise. Đã đăng ký bản quyền.
+            Bản quyền 2024 © Hoa Tiên Paradise. Đã đăng ký bản quyền.
         </div>
     </div>
     <div class=" text-dark montserrat-bold d-block d-md-none" style="font-size: 13px">
         <div class="content py-2 text-center" style="line-height: 1.25; background-color: white;  color: #207143 ">
-            Bản quyền 2024 © Hoa Tiên paradise.
+            Bản quyền 2024 © Hoa Tiên Paradise.
             <br>
             Đã đăng ký bản quyền.
         </div>
@@ -171,7 +173,7 @@
         border-bottom: 2px solid rgba(255, 255, 255, 0.2);
         padding: 0;
         outline: none;
-        background: transparent;
+        background: unset;
         border-radius: 0;
         width: 80%;
     }
@@ -204,16 +206,39 @@
 <script>
     $('#registration-form').submit(function (e) {
         e.preventDefault();
+
         let fullname = $('#fullname').val();
         let phone = $('#phone').val();
         let email = $('#email').val();
         let detail = $('#detail').val();
         let csrfToken = $('meta[name="csrf-token"]').attr('content');
+
+        // Kiểm tra trường tên và số điện thoại
+        if (!fullname || !phone) {
+            if (!fullname) {
+                $('#fullname-error').text('Vui lòng nhập tên đầy đủ của bạn.').show();  // Hiển thị thông báo lỗi cho tên
+            } else {
+                $('#fullname-error').hide();  // Ẩn thông báo lỗi nếu đã điền
+            }
+
+            if (!phone) {
+                $('#phone-error').text('Vui lòng nhập số điện thoại của bạn.').show();  // Hiển thị thông báo lỗi cho số điện thoại
+            } else {
+                $('#phone-error').hide();  // Ẩn thông báo lỗi nếu đã điền
+            }
+            return;  // Dừng xử lý và không gửi form nếu thiếu thông tin
+        } else {
+            $('#fullname-error').hide();
+            $('#phone-error').hide();
+        }
+
         alert('Bạn đã gửi thông tin thành công');
         $('#fullname').val('');
         $('#phone').val('');
         $('#email').val('');
         $('#detail').val('');
+
+        // Gửi dữ liệu tới server thông qua AJAX
         $.ajax({
             url: "{{ route('sheet') }}",
             method: "POST",
@@ -226,16 +251,18 @@
             headers: {
                 'X-CSRF-TOKEN': csrfToken
             },
-            success: function(response){
-
+            success: function(response) {
+                // Thành công
             },
-            error: function(xhr, status, error){
+            error: function(xhr, status, error) {
                 var errorMessage = xhr.status + ': ' + xhr.statusText;
                 $("#error-message").text(errorMessage).removeClass('d-none');
             }
         });
+
+        // Gửi dữ liệu thêm một request khác nếu cần
         $.ajax({
-            url: '/send-register', // Thay đổi đường dẫn tới phần xử lý dữ liệu
+            url: '/send-register',
             method: 'POST',
             data: {
                 name: fullname,
@@ -246,12 +273,13 @@
             headers: {
                 'X-CSRF-TOKEN': csrfToken
             },
-            success: function (response) {
+            success: function(response) {
                 // Xử lý kết quả nếu cần
             },
-            error: function (xhr, status, error) {
+            error: function(xhr, status, error) {
                 console.error(error);
             }
         });
     });
+
 </script>

@@ -5,7 +5,7 @@
         <div class="carousel-inner">
 
             <div class="carousel-item active">
-                <img src="{{asset('images/homepage/section-7/sec7bg.png')}}" class="w-100" alt="img-slide" style="">
+                <img src="{{asset('images/homepage/section-7/sec7.jpg')}}" class="w-100" alt="img-slide" style="">
             </div>
 
         </div>

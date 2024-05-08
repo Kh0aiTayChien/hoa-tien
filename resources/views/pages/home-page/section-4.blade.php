@@ -5,7 +5,7 @@
         <div class="carousel-inner">
 
             <div class="carousel-item active">
-                <img src="{{asset('images/homepage/section-4/sec4bg.png')}}" class="img-fluid" alt="img-slide">
+                <img src="{{asset('images/homepage/section-4/sec4bg.png')}}" class="img-fluid" alt="img-slide" loading="lazy">
             </div>
 
         </div>
