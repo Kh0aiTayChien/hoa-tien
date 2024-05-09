@@ -1,4 +1,4 @@
-<div class="section-2 ">
+<div class="section-2 d-none d-md-block">
     <div id="section-2-carousel" class="carousel slide w-100" data-bs-ride="carousel">
         <div class="carousel-indicators">
         </div>

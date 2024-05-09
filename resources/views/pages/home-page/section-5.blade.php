@@ -188,4 +188,54 @@
         background-size: cover;
         background-repeat: no-repeat;
     }
+    @media only screen and (max-width: 800px) {
+        .section-5 {
+            display: block; /* hoặc display: flex; */
+            justify-content: center;
+            text-align: center;
+            width: 100vw; /* Đảm bảo chiếm 100% chiều rộng cửa sổ xem */
+            height: auto; /* Chiều cao tự động điều chỉnh */
+            background-image: url("/images/homepage/section-5/sec5bgm.png") ;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            overflow: hidden;
+        }
+        .carousel-hall-of-fame{
+            padding-top: unset !important;
+        }
+        .section-5 .slick-slide img{
+            margin-top: 16vh;
+        }
+        .section-5 .rounded-custom{
+            width: 95% !important;
+        }
+        .custom-prev-arrow-hall-of-fame5,
+        .custom-next-arrow-hall-of-fame5 {
+            position: absolute;
+            top: 70%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            cursor: pointer;
+            scale: 75%;
+            z-index: 2;
+            opacity: 50%;
+        }
+
+        .custom-prev-arrow-hall-of-fame5 {
+            left: -4%;
+        }
+
+        .custom-next-arrow-hall-of-fame5 {
+            right: -4%;
+        }
+        .section-5 .slick-dots {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            margin-top: 3rem;
+        }
+    }
 </style>
