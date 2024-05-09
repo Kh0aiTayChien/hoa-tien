@@ -15,7 +15,7 @@
                 <button class="btn-transparent px-3 tien-ich" style="color: #207143">TIỆN ÍCH</button>
             </div>
             <div class="col-2 text-center no-opacity d-flex align-content-center ">
-                <button class="btn-transparent px-3 vr360" style="color: #207143">VR360</button>
+                <button class="btn-transparent px-3 vr3601" style="color: #207143">VR360</button>
             </div>
             <div class="col-2 text-center no-opacity d-flex align-content-center ">
                 <button class="btn-transparent px-3 communicate" style="color: #207143">LIÊN HỆ</button>
@@ -134,6 +134,14 @@
         background-color: #20715E; /* Thiết lập màu chữ */
         color: white; /* Thiết lập màu viền */
     }
+    .btn-outline-white{
+        color: red;
+        border-color: white;
+    }
+    .btn-outline-white:hover{
+        background-color: white;
+        border-color: white;
+    }
     #scrollToTopBtn {
         display: none;
     }
@@ -237,7 +245,7 @@
                 scrollTop: scrollToPosition
             }, 500); // Thời gian cuộn (trong mili giây)
         });
-        $('.vr360').click(function(event) {
+        $('.vr3601').click(function(event) {
             event.preventDefault(); // Ngăn chặn hành động mặc định của nút
 
             // Tính toán vị trí cần cuộn đến (50% chiều cao của màn hình)

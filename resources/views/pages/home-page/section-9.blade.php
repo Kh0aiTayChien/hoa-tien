@@ -1,6 +1,6 @@
 <div class="section-9 ">
     <div class="position-absolute ">
-        <div class="btn btn-outline-info p-1 border-3 me-5 vr360 d-none d-md-block"
+        <div class="btn btn-outline-light p-1 border-3 me-5 vr360 d-none d-md-block"
              style="border-color: #20715E; transform: translateY(-215%)">
             <div class="btn mulish-extrabold px-4 btn-long"
                  style="background-color: #20715E;
@@ -12,7 +12,7 @@
 </div>
 <div class="section-9-mb ">
 
-    <div class="btn btn-outline-info p-1 border-3 vr360" style="border-color: #20715E; margin-top: 30vh">
+    <div class="btn btn-outline-light p-1 border-3 vr360" style="border-color: #20715E; margin-top: 30vh">
         <div class="btn mulish-extrabold px-4 d-md-none"
              style="background-color: #20715E;
                  font-size: 15px; color: #fff;">

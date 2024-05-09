@@ -54,13 +54,13 @@
                         <textarea type="text" name="detail" id="detail" class="text-area"></textarea>
                         <br>
                         <div class="mt-5 d-none d-md-block" style="width: 80%">
-                            <button class="btn btn-outline-info p-1 border-3 ms-3" style="border-color: white" type="submit">
+                            <button class="btn btn-outline-white p-1 border-3 ms-3" style="border-color: white" type="submit">
                                 <div class="btn Montserrat-ExtraBold px-4" style="background-color: white; font-size: 15px; color: #207143">
                                     NHẬN THÔNG TIN TƯ VẤN</div>
                             </button>
                         </div>
                         <div class="mt-5 d-block d-md-none" style="">
-                            <button class="btn btn-outline-info p-1 border-3 ms-3" style="border-color: white" type="submit">
+                            <button class="btn btn-outline-white p-1 border-3 ms-3" style="border-color: white" type="submit">
                                 <div class="btn Montserrat-ExtraBold px-4" style="background-color: white; font-size: 15px; color: #207143">
                                     NHẬN THÔNG TIN TƯ VẤN</div>
                             </button>

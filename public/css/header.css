@@ -104,7 +104,6 @@
     border: hidden;
     font-family: 'Montserrat-Bold';
     font-size: 12px;
-    letter-spacing: 1px; /* Chữ giãn rộng 1px */
 }
 .btn-white {
     background-color: white;
