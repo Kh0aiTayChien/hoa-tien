@@ -1,4 +1,4 @@
-<div class="section-5 " >
+<div class="section-5 d-none d-md-block" >
     <div class="hall-of-fame5 ">
         <div class="slick-carousel position-relative ">
             <button class="custom-prev-arrow-hall-of-fame5" aria-label="Previous">
@@ -75,6 +75,7 @@
             justify-content: center;
             list-style: none;
             padding: 0;
+            margin-top: 0;
         }
 
         .hall-of-fame .card {
@@ -84,7 +85,7 @@
         .custom-prev-arrow-hall-of-fame5,
         .custom-next-arrow-hall-of-fame5 {
             position: absolute;
-            top: 60%;
+            top: 50%;
             transform: translateY(-50%);
             background: none;
             border: none;
@@ -122,60 +123,6 @@
     </style>
 
 
-
-
-{{--    <div class="slick-carousel position-relative">--}}
-{{--        <button class="custom-prev-arrow-1 product-pc-title" aria-label="Previous">--}}
-{{--            <img src="{{asset('images/arrow/left.png')}}" alt="Previous" class=" button-shake"/>--}}
-{{--        </button>--}}
-{{--        <button class="custom-next-arrow-1  product-pc-title" aria-label="Next">--}}
-{{--            <img src="{{asset('images/arrow/right.png')}}" alt="Next" class=" button-shake"/>--}}
-{{--        </button>--}}
-
-{{--        <div class="carousel-courses-1">--}}
-{{--            <div class="d-flex justify-content-center">--}}
-{{--                   a--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
-
-{{--    <script>--}}
-{{--        $(document).ready(function () {--}}
-{{--            $('.carousel-courses-1').slick({--}}
-{{--                infinite: true,--}}
-{{--                speed: 900,--}}
-{{--                slidesToShow: 1,--}}
-{{--                slidesToScroll: 1,--}}
-{{--                prevArrow: $('.custom-prev-arrow-1'),--}}
-{{--                nextArrow: $('.custom-next-arrow-1'),--}}
-{{--                responsive: [--}}
-{{--                    {--}}
-{{--                        breakpoint: 1324,--}}
-{{--                        settings: {--}}
-{{--                            slidesToShow: 1,--}}
-{{--                            slidesToScroll: 1--}}
-{{--                        }--}}
-{{--                    },--}}
-{{--                    {--}}
-{{--                        breakpoint: 800,--}}
-{{--                        settings: {--}}
-{{--                            slidesToShow: 1,--}}
-{{--                            slidesToScroll: 1,--}}
-{{--                        }--}}
-{{--                    },--}}
-{{--                    {--}}
-{{--                        breakpoint: 480,--}}
-{{--                        settings: {--}}
-{{--                            slidesToShow: 1,--}}
-{{--                            slidesToScroll: 1,--}}
-{{--                            variableWidth: false,--}}
-{{--                        }--}}
-{{--                    }--}}
-{{--                ]--}}
-{{--            });--}}
-{{--        });--}}
-{{--    </script>--}}
-
 </div>
 <style>
     .section-5 {
@@ -187,55 +134,5 @@
         background-image: url("/images/homepage/section-5/slide1.png");
         background-size: cover;
         background-repeat: no-repeat;
-    }
-    @media only screen and (max-width: 800px) {
-        .section-5 {
-            display: block; /* hoặc display: flex; */
-            justify-content: center;
-            text-align: center;
-            width: 100vw; /* Đảm bảo chiếm 100% chiều rộng cửa sổ xem */
-            height: auto; /* Chiều cao tự động điều chỉnh */
-            background-image: url("/images/homepage/section-5/sec5bgm.png") ;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center center;
-            overflow: hidden;
-        }
-        .carousel-hall-of-fame{
-            padding-top: unset !important;
-        }
-        .section-5 .slick-slide img{
-            margin-top: 16vh;
-        }
-        .section-5 .rounded-custom{
-            width: 95% !important;
-        }
-        .custom-prev-arrow-hall-of-fame5,
-        .custom-next-arrow-hall-of-fame5 {
-            position: absolute;
-            top: 70%;
-            transform: translateY(-50%);
-            background: none;
-            border: none;
-            cursor: pointer;
-            scale: 75%;
-            z-index: 2;
-            opacity: 50%;
-        }
-
-        .custom-prev-arrow-hall-of-fame5 {
-            left: -4%;
-        }
-
-        .custom-next-arrow-hall-of-fame5 {
-            right: -4%;
-        }
-        .section-5 .slick-dots {
-            display: flex;
-            justify-content: center;
-            list-style: none;
-            padding: 0;
-            margin-top: 3rem;
-        }
     }
 </style>

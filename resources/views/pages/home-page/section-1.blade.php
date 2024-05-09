@@ -18,7 +18,7 @@
         <div class="carousel-inner">
 
             <div class="carousel-item active">
-                <img src="{{asset('images/homepage/section-1/sec1bgmb.png')}}" class="img-slide img-fluid" alt="img-slide" >
+                <img src="{{asset('images/homepage/section-1/bgt.jpg')}}" class="img-slide img-fluid" alt="img-slide" >
             </div>
 
         </div>

@@ -75,6 +75,11 @@
     height: 100%;
     letter-spacing: 1px; /* Chữ giãn rộng 1px */
 }
+@media only screen and (max-width: 800px) {
+    .header-content {
+        margin-left: 5vw;
+    }
+}
 
 .header-list {
     right: 0;
@@ -97,7 +102,7 @@
 .btn-transparent {
     background-color: transparent;
     border: hidden;
-    font-family: 'Montserrat-ExtraBold';
+    font-family: 'Montserrat-Bold';
     font-size: 12px;
     letter-spacing: 1px; /* Chữ giãn rộng 1px */
 }

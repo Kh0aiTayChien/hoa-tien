@@ -225,19 +225,22 @@
             display: block; /* hoặc display: flex; */
             justify-content: center;
             text-align: center;
-            width: 100vw; /* Đảm bảo chiếm 100% chiều rộng cửa sổ xem */
+            width: 100%; /* Đảm bảo chiếm 100% chiều rộng cửa sổ xem */
             height: auto; /* Chiều cao tự động điều chỉnh */
-            background-image: url("/images/homepage/section-3/bgmb.png");
-            background-size: cover;
+            background-image: url("/images/homepage/section-3/sec3.jpg");
+            background-size: 100% auto; /* Chiều rộng 100%, chiều cao tự động */
             background-repeat: no-repeat;
             background-position: center center;
-            overflow: hidden;
+            overflow: hidden; /* Cắt bớt phần ngoài phạm vi của .section-3 */
         }
         .carousel-hall-of-fame{
             padding-top: unset !important;
         }
         .section-3 .slick-slide img{
-            margin-top: 40vh;
+            margin-top: 33vh;
+        }
+        .section-3 .slick-slide {
+            height: 65vh !important;
         }
         .section-3 .card{
             width: 95% !important;
@@ -245,7 +248,7 @@
         .custom-prev-arrow-hall-of-fame,
         .custom-next-arrow-hall-of-fame {
             position: absolute;
-            top: 65%;
+            top: 70%;
             transform: translateY(-50%);
             background: none;
             border: none;
@@ -268,6 +271,9 @@
             list-style: none;
             padding: 0;
             margin-top: -3rem;
+        }
+        .section-3 .rounded-custom {
+
         }
     }
 </style>

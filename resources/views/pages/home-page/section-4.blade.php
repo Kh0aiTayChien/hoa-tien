@@ -18,7 +18,7 @@
         <div class="carousel-inner">
 
             <div class="carousel-item active">
-                <img src="{{asset('images/homepage/section-4/sec4bgm.png')}}" class="img-fluid" alt="img-slide" loading="lazy">
+                <img src="{{asset('images/homepage/section-4/sec4.jpg')}}" class="img-fluid" alt="img-slide" loading="lazy">
             </div>
 
         </div>

@@ -73,7 +73,7 @@
         <hr class="my-line mt-5 mb-5">
 
         <div class="row mt-5">
-            <div class="col-md-5 col-xs-12"><img src="{{asset('images/footer/LOGO1.png')}}" alt="" class="img-fluid scrollToTop"></div>
+            <div class="col-md-5 col-xs-12"><img src="{{asset('images/footer/LOGOt.png')}}" alt="" class="img-fluid scrollToTop"></div>
             <div class="col-md-1"></div>
             <div class="col-md-6  col-xs-12">
                 <div class="montserrat-bold text-white d-none d-md-block mb-4 ms-3" style="font-size: 1.95vw; width: 90%">
@@ -90,19 +90,19 @@
                 </div>
 
 {{--                mobile--}}
-                <div class="montserrat-bold text-white d-block d-md-none mb-4 mt-4 text-center" style="font-size: 25px; width: 100%">
+                <div class="montserrat-bold text-white d-block d-md-none mt-4 text-left" style="font-size: 25px; width: 100%">
                     <div>VĂN PHÒNG CHỦ ĐẦU TƯ</div>
                 </div>
-                <div class="montserrat-bold text-white d-block d-md-none text-center" style="font-size: 15px; width: 100%; letter-spacing: 0.05rem">
+                <div class="montserrat-bold text-white d-block d-md-none text-left" style="font-size: 15px; width: 100%; letter-spacing: 0.05rem">
                     <strong>Địa chỉ:</strong>
                 </div>
-                <div class="montserrat text-white d-block d-md-none text-center" style="font-size: 15px; width: 100%; letter-spacing: 0.05rem">
+                <div class="montserrat text-white d-block d-md-none text-left" style="font-size: 15px; width: 100%; letter-spacing: 0.05rem">
                     Bãi biển Xuân Thành, Nghi Xuân, Hà Tĩnh
                 </div>
-                <div class="montserrat-bold text-white d-block d-md-none text-center" style="font-size: 15px; width: 100%; letter-spacing: 0.05rem">
+                <div class="montserrat-bold text-white d-block d-md-none text-left" style="font-size: 15px; width: 100%; letter-spacing: 0.05rem">
                     <strong>Hotline:</strong>
                 </div>
-                <div class="montserrat text-white d-block d-md-none text-center" style="font-size: 15px; width: 100%; letter-spacing: 0.05rem">
+                <div class="montserrat text-white d-block d-md-none text-left" style="font-size: 15px; width: 100%; letter-spacing: 0.05rem">
                     0901739995 - 0931189996
                 </div>
 
@@ -110,12 +110,12 @@
         </div>
 
     </div>
-    <div class="about bg-white text-dark montserrat-bold d-none d-md-block" style="font-size: 13px">
+    <div class="about bg-white text-dark montserrat-bold d-none d-md-block" style="font-size: 14px">
         <div class="content py-3" style="color: #207143; height: 100%">
             Bản quyền 2024 © Hoa Tiên Paradise. Đã đăng ký bản quyền.
         </div>
     </div>
-    <div class=" text-dark montserrat-bold d-block d-md-none" style="font-size: 13px">
+    <div class=" text-dark montserrat-bold d-block d-md-none" style="font-size: 14px">
         <div class="content py-2 text-center" style="line-height: 1.25; background-color: white;  color: #207143 ">
             Bản quyền 2024 © Hoa Tiên Paradise.
             <br>

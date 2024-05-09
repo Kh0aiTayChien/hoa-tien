@@ -39,8 +39,8 @@
         </a>
     </div>
     <div class="position-absolute shake" style="right: 2%; margin-top: 85vh;">
-        <button id="scrollToTopBtn" class="btn btn-lg" title="Go to top" style="background-color: #20715E">
-            <i class="fa fa-angle-up button-shake" style="color: #ffffff;"></i>
+        <button id="scrollToTopBtn" class="btn btn-lg btn-outline-light" title="Go to top" style="">
+            <i class="fa fa-angle-up button-shake" style="color: white;"></i>
         </button>
     </div>
 </div>
@@ -74,17 +74,17 @@
         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="80" height="80" viewBox="0 0 48 48">
             <linearGradient id="hbE9Evnj3wAjjA2RX0We2a_OZuepOQd0omj_gr1" x1="7.534" x2="27.557" y1="7.534" y2="27.557"
                             gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#f44f5a"></stop>
-                <stop offset=".443" stop-color="#ee3d4a"></stop>
-                <stop offset="1" stop-color="#e52030"></stop>
+                <stop offset="0" stop-color="#20715E"></stop>
+                <stop offset=".443" stop-color="#20715E"></stop>
+                <stop offset="1" stop-color="#20715E"></stop>
             </linearGradient>
             <path fill="url(#hbE9Evnj3wAjjA2RX0We2a_OZuepOQd0omj_gr1)"
                   d="M42.42,12.401c0.774-0.774,0.774-2.028,0-2.802L38.401,5.58c-0.774-0.774-2.028-0.774-2.802,0	L24,17.179L12.401,5.58c-0.774-0.774-2.028-0.774-2.802,0L5.58,9.599c-0.774,0.774-0.774,2.028,0,2.802L17.179,24L5.58,35.599	c-0.774,0.774-0.774,2.028,0,2.802l4.019,4.019c0.774,0.774,2.028,0.774,2.802,0L42.42,12.401z"></path>
             <linearGradient id="hbE9Evnj3wAjjA2RX0We2b_OZuepOQd0omj_gr2" x1="27.373" x2="40.507" y1="27.373" y2="40.507"
                             gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#a8142e"></stop>
-                <stop offset=".179" stop-color="#ba1632"></stop>
-                <stop offset=".243" stop-color="#c21734"></stop>
+                <stop offset="0" stop-color="#20715E"></stop>
+                <stop offset=".179" stop-color="#20715E"></stop>
+                <stop offset=".243" stop-color="#20715E"></stop>
             </linearGradient>
             <path fill="url(#hbE9Evnj3wAjjA2RX0We2b_OZuepOQd0omj_gr2)"
                   d="M24,30.821L35.599,42.42c0.774,0.774,2.028,0.774,2.802,0l4.019-4.019	c0.774-0.774,0.774-2.028,0-2.802L30.821,24L24,30.821z"></path>
@@ -105,15 +105,15 @@
             <img src="{{asset('images/header/zalo.png')}}" alt="" style="">
         </a>
     </div>
-    <div class="position-absolute shake" style="right: 2%; margin-top: 82vh; animation: shake 1s infinite;">
+    <div class="position-absolute shake" style="right: 2%; margin-top: 75vh; animation: shake 1s infinite;">
         <a href="tel:0931 189 996">
             <img src="{{asset('images/header/phone.png')}}" alt="" style="">
         </a>
     </div>
 </div>
-<div class="menu-dropdown blue-bg d-none">
+<div class="menu-dropdown  d-none" style="">
     <div class="mobile-menu">
-{{--        <div class="text-center header-logo btn-outline-danger">TRANG CHỦ</div>--}}
+        <div class="text-center header-logo btn-outline-danger">TRANG CHỦ</div>
 {{--        <div class="text-center mt-4 document">TÀI LIỆU</div>--}}
 {{--        <div class="text-center mt-4">VỀ THẦY NINO</div>--}}
 {{--        <div class="text-center mt-4">CÁC KHÓA HỌC</div>--}}
@@ -126,6 +126,14 @@
 
 </div>
 <style>
+    .btn-outline-light {
+        color: #20715E; /* Thiết lập màu chữ */
+        border-color: white; /* Thiết lập màu viền */
+    }
+    .btn-outline-light:hover {
+        background-color: #20715E; /* Thiết lập màu chữ */
+        color: white; /* Thiết lập màu viền */
+    }
     #scrollToTopBtn {
         display: none;
     }
@@ -143,7 +151,11 @@
         left: 0;
         width: 100%;
         height: 100%;
-        z-index: 999; /* Đảm bảo div phủ lên trên cùng */
+        z-index: 999;
+        background-image: url("/images/header/menu.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
     }
     .hide_button {
         display: none;
@@ -151,15 +163,24 @@
 </style>
 <script>
     $(document).ready(function () {
+        // $('.dropdown-header').click(function () {
+        //     $('.menu-dropdown').removeClass('d-none');
+        //     $('.dropdown-header').addClass('d-none');
+        //     $('.dropdown-cancer').removeClass('d-none');
+        // });
+        // $('.dropdown-cancer').click(function () {
+        //     $('.menu-dropdown').addClass('d-none');
+        //     $('.dropdown-cancer').addClass('d-none');
+        //     $('.dropdown-header').removeClass('d-none');
+        // });
         $('.dropdown-header').click(function () {
-            $('.menu-dropdown').removeClass('d-none');
-            $('.dropdown-header').addClass('d-none');
-            $('.dropdown-cancer').removeClass('d-none');
-        });
-        $('.dropdown-cancer').click(function () {
-            $('.menu-dropdown').addClass('d-none');
-            $('.dropdown-cancer').addClass('d-none');
-            $('.dropdown-header').removeClass('d-none');
+            // Tính toán vị trí cuộn để đặt con trỏ gần cuối trang (khoảng 95%)
+            var targetPosition = $(document).height() * 0.95 - $(window).height();
+
+            // Cuộn xuống vị trí tính toán
+            $('html, body').animate({
+                scrollTop: targetPosition
+            }, 1000); // Thời gian cuộn (1 giây)
         });
     });
 </script>

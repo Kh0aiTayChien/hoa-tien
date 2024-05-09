@@ -78,6 +78,10 @@
             z-index: 2;
              opacity: 50%;
         }
+        .section-7 .slick-slide img{
+            margin-top: -2vh;
+            scale: 90%;
+        }
 
         .custom-prev-arrow-hall-of-fame7 {
             left: -4%;
@@ -96,7 +100,7 @@
         }
         .section-7 .rounded-custom {
             width: 100% !important;
-                   }
+        }
     }
 </style>
 <script>

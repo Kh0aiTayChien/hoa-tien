@@ -5,6 +5,7 @@
     @include('pages.home-page.section-3')
     @include('pages.home-page.section-4')
     @include('pages.home-page.section-5')
+    @include('pages.home-page.section-5-mb')
     @include('pages.home-page.section-6')
     @include('pages.home-page.section-7')
     @include('pages.home-page.section-8')
