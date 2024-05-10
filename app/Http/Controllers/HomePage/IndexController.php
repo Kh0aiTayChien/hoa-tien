@@ -64,7 +64,7 @@ class IndexController extends Controller
     {
         Sheets::spreadsheet(config('sheet.spreadsheet_id'));
         $timeNow = Carbon::now()->format('H:i d/m/Y'); 
-        $rows = ["", $request->name, $request->phone, $request->email, $request->detail, $timeNow];
+        $rows = [$timeNow, $request->name, $request->phone, $request->email, $request->detail];
 
         $rows = array($rows);
 //        try {
