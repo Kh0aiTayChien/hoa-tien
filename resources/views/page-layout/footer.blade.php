@@ -94,16 +94,16 @@
                     <div>VĂN PHÒNG CHỦ ĐẦU TƯ</div>
                 </div>
                 <div class="montserrat-bold text-white d-block d-md-none text-left" style="font-size: 15px; width: 100%; letter-spacing: 0.05rem">
-                    <strong>Địa chỉ:</strong>
+                    <strong>Địa chỉ:  Bãi biển Xuân Thành, Nghi Xuân, Hà Tĩnh</strong>
                 </div>
                 <div class="montserrat text-white d-block d-md-none text-left" style="font-size: 15px; width: 100%; letter-spacing: 0.05rem">
-                    Bãi biển Xuân Thành, Nghi Xuân, Hà Tĩnh
+                   
                 </div>
                 <div class="montserrat-bold text-white d-block d-md-none text-left" style="font-size: 15px; width: 100%; letter-spacing: 0.05rem">
-                    <strong>Hotline:</strong>
+                    <strong>Hotline: 0964 510 901</strong>
                 </div>
                 <div class="montserrat text-white d-block d-md-none text-left" style="font-size: 15px; width: 100%; letter-spacing: 0.05rem">
-                   0964 510 901
+                   
                 </div>
 
             </div>
