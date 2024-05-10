@@ -20,6 +20,7 @@ use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Str;
 use App\Models\Category;
 use Revolution\Google\Sheets\Facades\Sheets;
+use Illuminate\Support\Carbon;
 
 class IndexController extends Controller
 {
@@ -62,7 +63,8 @@ class IndexController extends Controller
     public function sheet(Request $request)
     {
         Sheets::spreadsheet(config('sheet.spreadsheet_id'));
-        $rows = ["", $request->name, $request->phone, $request->email, $request->detail];
+        $timeNow = Carbon::now()->format('H:i d/m/Y'); 
+        $rows = ["", $request->name, $request->phone, $request->email, $request->detail, $timeNow];
 
         $rows = array($rows);
 //        try {
