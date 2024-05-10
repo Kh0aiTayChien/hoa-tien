@@ -86,7 +86,7 @@
                     Email: cskh@hoatienparadisehatinh.vn
                 </div>
                 <div class="montserrat text-white d-none d-md-block ms-3" style="font-size: 1.09vw; width: 90%; letter-spacing: 0.05rem">
-                    Hotline: 0901739995 - 0931189996
+                    Hotline: 0964 510 901
                 </div>
 
 {{--                mobile--}}
@@ -103,7 +103,7 @@
                     <strong>Hotline:</strong>
                 </div>
                 <div class="montserrat text-white d-block d-md-none text-left" style="font-size: 15px; width: 100%; letter-spacing: 0.05rem">
-                    0901739995 - 0931189996
+                   0964 510 901
                 </div>
 
             </div>
