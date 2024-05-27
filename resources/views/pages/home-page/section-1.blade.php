@@ -20,7 +20,7 @@
         <div class="carousel-inner">
 
             <div class="carousel-item active">
-                <img src="{{asset('images/homepage/section-1/bgt.jpg')}}" class="img-slide img-fluid" alt="hoa-tien-banne" >
+                <img src="{{asset('images/homepage/section-1/bgtc.jpg')}}" class="img-slide img-fluid" alt="hoa-tien-banner" >
             </div>
 
         </div>
