@@ -34,14 +34,14 @@ class IndexController extends Controller
         OpenGraph::setTitle('Dự án Hoa Tiên Paradise');
         OpenGraph::setUrl('https://hoatienparadisehatinh.vn/');
         OpenGraph::addProperty('type', 'article');
-        OpenGraph::addImage('https://hoatienparadisehatinh.vn/images/homepage/section-6/seo.png');
+        OpenGraph::addImage('https://hoatienparadisehatinh.vn/images/homepage/section-6/seo.webp');
 
         TwitterCard::setTitle('Dự án Hoa Tiên Paradise');
         TwitterCard::setSite('https://hoatienparadisehatinh.vn/');
 
         JsonLd::setTitle('Dự án Hoa Tiên Paradise');
         JsonLd::setDescription('Dự án Hoa Tiên Paradise, thỏa mãn mọi giác quan - đất vàng sinh phú quý.' );
-        JsonLd::addImage('https://hoatienparadisehatinh.vn/images/homepage/section-6/seo.png');
+        JsonLd::addImage('https://hoatienparadisehatinh.vn/images/homepage/section-6/seo.webp');
 
 
         return view('pages/home-page/index');
@@ -63,7 +63,7 @@ class IndexController extends Controller
     public function sheet(Request $request)
     {
         Sheets::spreadsheet(config('sheet.spreadsheet_id'));
-        $timeNow = Carbon::now()->format('H:i d/m/Y'); 
+        $timeNow = Carbon::now()->format('H:i d/m/Y');
         $rows = [$timeNow, $request->name, $request->phone, $request->email, $request->detail];
 
         $rows = array($rows);
