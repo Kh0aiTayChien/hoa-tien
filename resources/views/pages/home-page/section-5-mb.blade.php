@@ -13,35 +13,35 @@
 
                     <img class="rounded-custom img-fluid shadow-effect"
                          src="{{asset('images/homepage/section-5/1.png')}}"
-                         alt="hoa-tien-image"  style="width: 65%">
+                         alt="hoa-tien-image" loading="lazy"  style="width: 65%">
 
                 </div>
                 <div class="d-flex justify-content-center">
 
                     <img class="rounded-custom img-fluid shadow-effect"
                          src="{{asset('images/homepage/section-5/2.png')}}"
-                         alt="hoa-tien-image"  style="width: 65%">
+                         alt="hoa-tien-image" loading="lazy"  style="width: 65%">
 
                 </div>
                 <div class="d-flex justify-content-center">
 
                     <img class="rounded-custom img-fluid shadow-effect"
                          src="{{asset('images/homepage/section-5/3.png')}}"
-                         alt="hoa-tien-image"  style="width: 65%">
+                         alt="hoa-tien-image" loading="lazy"  style="width: 65%">
 
                 </div>
                 <div class="d-flex justify-content-center">
 
                     <img class="rounded-custom img-fluid shadow-effect"
                          src="{{asset('images/homepage/section-5/4.png')}}"
-                         alt="hoa-tien-image"  style="width: 65%">
+                         alt="hoa-tien-image" loading="lazy"  style="width: 65%">
 
                 </div>
                 <div class="d-flex justify-content-center">
 
                     <img class="rounded-custom img-fluid shadow-effect"
                          src="{{asset('images/homepage/section-5/5.png')}}"
-                         alt="hoa-tien-image"  style="width: 65%">
+                         alt="hoa-tien-image" loading="lazy"  style="width: 65%">
 
                 </div>
             </div>

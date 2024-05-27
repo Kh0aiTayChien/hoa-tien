@@ -23,7 +23,7 @@
         </div>
         <div class=" text-center no-opacity d-flex align-content-center ">
             <a href="tel:0931 189 996">
-                <img src="{{asset('images/header/phone1.png')}}" alt="hoa-tien-image"  style="scale: 65%; transform: translateY(12%)" class="img-fluid">
+                <img src="{{asset('images/header/phone1.png')}}" alt="hoa-tien-image" loading="lazy"  style="scale: 65%; transform: translateY(12%)" class="img-fluid">
             </a>
         </div>
     </div>

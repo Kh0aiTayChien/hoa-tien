@@ -15,7 +15,7 @@
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
                              src="{{asset('images/homepage/section-3/1.jpg')}}"
-                             alt="hoa-tien-image" >
+                             alt="hoa-tien-image" loading="lazy"  >
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
@@ -23,7 +23,7 @@
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
                              src="{{asset('images/homepage/section-3/2.jpg')}}"
-                             alt="hoa-tien-image" >
+                             alt="hoa-tien-image" loading="lazy"  >
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
@@ -31,7 +31,7 @@
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
                              src="{{asset('images/homepage/section-3/3.jpg')}}"
-                             alt="hoa-tien-image" >
+                             alt="hoa-tien-image" loading="lazy">
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
@@ -39,7 +39,7 @@
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
                              src="{{asset('images/homepage/section-3/4.jpg')}}"
-                             alt="hoa-tien-image" >
+                             alt="hoa-tien-image" loading="lazy" >
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
@@ -47,7 +47,7 @@
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
                              src="{{asset('images/homepage/section-3/5.jpg')}}"
-                             alt="hoa-tien-image" >
+                             alt="hoa-tien-image" loading="lazy"  >
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
@@ -55,7 +55,7 @@
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
                              src="{{asset('images/homepage/section-3/6.jpg')}}"
-                             alt="hoa-tien-image" >
+                             alt="hoa-tien-image" loading="lazy"  >
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
@@ -63,7 +63,7 @@
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
                              src="{{asset('images/homepage/section-3/7.jpg')}}"
-                             alt="hoa-tien-image" >
+                             alt="hoa-tien-image" loading="lazy" >
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
@@ -71,7 +71,7 @@
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
                              src="{{asset('images/homepage/section-3/8.jpg')}}"
-                             alt="hoa-tien-image" >
+                             alt="hoa-tien-image" loading="lazy" >
                     </div>
                 </div>
             </div>

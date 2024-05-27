@@ -6,7 +6,7 @@
         <div class="carousel-inner">
 
             <div class="carousel-item active">
-                <img src="{{asset('images/homepage/section-7/sec7.webp')}}" class="w-100" alt="hoa-tien-image" style="">
+                <img src="{{asset('images/homepage/section-7/sec7.webp')}}" class="w-100" alt="hoa-tien-image" loading="lazy" style="">
             </div>
 
         </div>
@@ -25,28 +25,28 @@
 
                 <img class="rounded-custom img-fluid shadow-effect"
                      src="{{asset('images/homepage/section-7/1-3.png')}}"
-                     alt="hoa-tien-image"  style="width: 65%">
+                     alt="hoa-tien-image" loading="lazy"  style="width: 65%">
 
             </div>
             <div class="d-flex justify-content-center">
 
                 <img class="rounded-custom img-fluid shadow-effect"
                      src="{{asset('images/homepage/section-7/1-2.png')}}"
-                     alt="hoa-tien-image"  style="width: 65%">
+                     alt="hoa-tien-image" loading="lazy"  style="width: 65%">
 
             </div>
             <div class="d-flex justify-content-center">
 
                 <img class="rounded-custom img-fluid shadow-effect"
                      src="{{asset('images/homepage/section-7/1-1.png')}}"
-                     alt="hoa-tien-image"  style="width: 65%">
+                     alt="hoa-tien-image" loading="lazy"  style="width: 65%">
 
             </div>
             <div class="d-flex justify-content-center">
 
                 <img class="rounded-custom img-fluid shadow-effect"
                      src="{{asset('images/homepage/section-7/1.png')}}"
-                     alt="hoa-tien-image"  style="width: 65%">
+                     alt="hoa-tien-image" loading="lazy"  style="width: 65%">
 
             </div>
         </div>

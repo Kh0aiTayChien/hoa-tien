@@ -6,7 +6,7 @@
         <div class="carousel-inner">
 
             <div class="carousel-item active">
-                <img src="{{asset('images/homepage/section-4/sec4bg01.jpg')}}" class="img-fluid" alt="hoa-tien-image" >
+                <img src="{{asset('images/homepage/section-4/sec4bg01.jpg')}}" class="img-fluid" alt="hoa-tien-image" loading="lazy"  >
             </div>
 
         </div>
@@ -19,7 +19,7 @@
         <div class="carousel-inner">
 
             <div class="carousel-item active">
-                <img src="{{asset('images/homepage/section-4/sec4.jpg')}}" class="img-fluid" alt="hoa-tien-image" >
+                <img src="{{asset('images/homepage/section-4/sec4.jpg')}}" class="img-fluid" alt="hoa-tien-image" loading="lazy" >
             </div>
 
         </div>
