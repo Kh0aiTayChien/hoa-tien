@@ -1,4 +1,5 @@
 <div class="section-9 ">
+    <h2 class="d-none">Trải nghiệm 360</h2>
     <div class="position-absolute ">
         <div class="btn btn-outline-light p-1 border-3 me-5 vr360 d-none d-md-block"
              style="border-color: #20715E; transform: translateY(-215%)">

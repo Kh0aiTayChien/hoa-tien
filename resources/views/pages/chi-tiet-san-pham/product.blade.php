@@ -2,18 +2,18 @@
     <div class="row gx-5">
         <div class="col-lg-7 col-xs-12">
             <div class="main-img">
-                <img src="{{$product->image}}" alt="" class="img-fluid w-100 large-image object-cover"
+                <img src="{{$product->image}}" alt="hoa-tien-image"  class="img-fluid w-100 large-image object-cover"
                      style="">
             </div>
             <div class="row mt-4 product-images d-flex flex-wrap" style="overflow-x: auto;">
                 @foreach($mediaProducts as $media)
                     <div class="col-3">
-                        <img src="{{$media->url}}" alt="" class="img-fluid small-image object-cover"
+                        <img src="{{$media->url}}" alt="hoa-tien-image"  class="img-fluid small-image object-cover"
                              style="height: 100%; object-fit: cover">
                     </div>
                 @endforeach
                 <div class="col-3">
-                    <img src="{{$product->image}}" alt="" class="img-fluid small-image object-cover"
+                    <img src="{{$product->image}}" alt="hoa-tien-image"  class="img-fluid small-image object-cover"
                          style="height: 100%; object-fit: cover">
                 </div>
             </div>
@@ -54,7 +54,7 @@
                 </div>
                 <div class=" p-1 border-3 mb-5 ms-5 " style="border-color: #207143">
                     <a href="tel:0931 189 996">
-                        <img src="{{asset('images/product/order.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('images/product/order.png')}}" alt="hoa-tien-image"  class="img-fluid">
                     </a>
                 </div>
             </div>
@@ -85,7 +85,7 @@
                 </div>
                 <div class="border-3 mb-5 " style="border-color: #207143">
                     <a href="tel:0931 189 996">
-                        <img src="{{asset('images/product/order.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('images/product/order.png')}}" alt="hoa-tien-image"  class="img-fluid">
                     </a>
                 </div>
             </div>

@@ -1,11 +1,12 @@
 <div class="section-7 d-none d-md-block">
+    <h2 class="d-none">Trạm Thiên Nhiên Bình Yên Trải Nghiệm</h2>
     <div id="section-7-carousel" class="carousel slide w-100" data-bs-ride="carousel">
         <div class="carousel-indicators">
         </div>
         <div class="carousel-inner">
 
             <div class="carousel-item active">
-                <img src="{{asset('images/homepage/section-7/sec7.jpg')}}" class="w-100" alt="img-slide" style="">
+                <img src="{{asset('images/homepage/section-7/sec7.jpg')}}" class="w-100" alt="hoa-tien-image" style="">
             </div>
 
         </div>
@@ -24,28 +25,28 @@
 
                 <img class="rounded-custom img-fluid shadow-effect"
                      src="{{asset('images/homepage/section-7/1-3.png')}}"
-                     alt="" style="width: 65%">
+                     alt="hoa-tien-image"  style="width: 65%">
 
             </div>
             <div class="d-flex justify-content-center">
 
                 <img class="rounded-custom img-fluid shadow-effect"
                      src="{{asset('images/homepage/section-7/1-2.png')}}"
-                     alt="" style="width: 65%">
+                     alt="hoa-tien-image"  style="width: 65%">
 
             </div>
             <div class="d-flex justify-content-center">
 
                 <img class="rounded-custom img-fluid shadow-effect"
                      src="{{asset('images/homepage/section-7/1-1.png')}}"
-                     alt="" style="width: 65%">
+                     alt="hoa-tien-image"  style="width: 65%">
 
             </div>
             <div class="d-flex justify-content-center">
 
                 <img class="rounded-custom img-fluid shadow-effect"
                      src="{{asset('images/homepage/section-7/1.png')}}"
-                     alt="" style="width: 65%">
+                     alt="hoa-tien-image"  style="width: 65%">
 
             </div>
         </div>

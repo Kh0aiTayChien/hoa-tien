@@ -1,6 +1,6 @@
 <div class="footer" id="footer">
     <div class="container-fluid custom-padding">
-        <div class="title" style="">
+        <h2 class="title" style="">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
                     <div class="montserrat-bold text-white d-none d-md-block" style="font-size: 1.5vw; letter-spacing: 0.35rem; width: 90%">HOA TIÊN PARADISE
@@ -19,7 +19,7 @@
                 </div>
 
             </div>
-        </div>
+        </h2>
         <form method="POST" class="" action="" style="letter-spacing: 2px" id="registration-form">
             <div class="row">
                 <div class="col-md-6 col-xs-12">
@@ -73,21 +73,21 @@
         <hr class="my-line mt-5 mb-5">
 
         <div class="row mt-5">
-            <div class="col-md-5 col-xs-12"><img src="{{asset('images/footer/LOGOt.png')}}" alt="" class="img-fluid scrollToTop"></div>
+            <div class="col-md-5 col-xs-12"><img src="{{asset('images/footer/LOGOt.png')}}" alt="hoa-tien-image"  class="img-fluid scrollToTop"></div>
             <div class="col-md-1"></div>
             <div class="col-md-6  col-xs-12">
                 <div class="montserrat-bold text-white d-none d-md-block mb-4 ms-3" style="font-size: 1.95vw; width: 90%">
-                    <div>VĂN PHÒNG CHỦ ĐẦU TƯ</div>
+                    <h3>VĂN PHÒNG CHỦ ĐẦU TƯ</h3>
                 </div>
-                <div class="montserrat text-white d-none d-md-block ms-3" style="font-size: 1.09vw; width: 90%; letter-spacing: 0.05rem">
+                <h4 class="montserrat text-white d-none d-md-block ms-3" style="font-size: 1.09vw; width: 90%; letter-spacing: 0.05rem">
                     Địa chỉ:  Bãi biển Xuân Thành, Nghi Xuân, Hà Tĩnh
-                </div>
-                <div class="montserrat text-white d-none d-md-block ms-3" style="font-size: 1.09vw; width: 90%; letter-spacing: 0.05rem">
+                </h4>
+                <h4 class="montserrat text-white d-none d-md-block ms-3" style="font-size: 1.09vw; width: 90%; letter-spacing: 0.05rem">
                     Email: cskh@hoatienparadisehatinh.vn
-                </div>
-                <div class="montserrat text-white d-none d-md-block ms-3" style="font-size: 1.09vw; width: 90%; letter-spacing: 0.05rem">
+                </h4>
+                <h4 class="montserrat text-white d-none d-md-block ms-3" style="font-size: 1.09vw; width: 90%; letter-spacing: 0.05rem">
                     Hotline: 0964 510 901
-                </div>
+                </h4>
 
 {{--                mobile--}}
                 <div class="montserrat-bold text-white d-block d-md-none mt-4 text-left" style="font-size: 25px; width: 100%">
@@ -97,13 +97,13 @@
                     <strong>Địa chỉ:  Bãi biển Xuân Thành, Nghi Xuân, Hà Tĩnh</strong>
                 </div>
                 <div class="montserrat text-white d-block d-md-none text-left" style="font-size: 15px; width: 100%; letter-spacing: 0.05rem">
-                   
+
                 </div>
                 <div class="montserrat-bold text-white d-block d-md-none text-left" style="font-size: 15px; width: 100%; letter-spacing: 0.05rem">
                     <strong>Hotline: 0964 510 901</strong>
                 </div>
                 <div class="montserrat text-white d-block d-md-none text-left" style="font-size: 15px; width: 100%; letter-spacing: 0.05rem">
-                   
+
                 </div>
 
             </div>
@@ -111,6 +111,7 @@
 
     </div>
     <div class="about bg-white text-dark montserrat-bold d-none d-md-block" style="font-size: 14px">
+        <h5 class="d-none">Bản quyền 2024 © Hoa Tiên Paradise. Đã đăng ký bản quyền.</h5>
         <div class="content py-3" style="color: #207143; height: 100%">
             Bản quyền 2024 © Hoa Tiên Paradise. Đã đăng ký bản quyền.
         </div>

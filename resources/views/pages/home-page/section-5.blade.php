@@ -1,4 +1,5 @@
 <div class="section-5 d-none d-md-block" >
+    <h2 class="d-none">Kiến Trúc Dưỡng Chủ Nhân </h2>
     <div class="hall-of-fame5 ">
         <div class="slick-carousel position-relative ">
             <button class="custom-prev-arrow-hall-of-fame5" aria-label="Previous">
@@ -13,35 +14,35 @@
 
                         <img class="rounded-custom img-fluid shadow-effect"
                              src="{{asset('images/homepage/section-5/1.png')}}"
-                             alt="" width="65%">
+                             alt="hoa-tien-image"  width="65%">
 
                 </div>
                 <div class="d-flex justify-content-center">
 
                         <img class="rounded-custom img-fluid shadow-effect"
                              src="{{asset('images/homepage/section-5/2.png')}}"
-                             alt="" width="65%">
+                             alt="hoa-tien-image"  width="65%">
 
                 </div>
                 <div class="d-flex justify-content-center">
 
                         <img class="rounded-custom img-fluid shadow-effect"
                              src="{{asset('images/homepage/section-5/3.png')}}"
-                             alt="" width="65%">
+                             alt="hoa-tien-image"  width="65%">
 
                 </div>
                 <div class="d-flex justify-content-center">
 
                         <img class="rounded-custom img-fluid shadow-effect"
                              src="{{asset('images/homepage/section-5/4.png')}}"
-                             alt="" width="65%">
+                             alt="hoa-tien-image"  width="65%">
 
                 </div>
                 <div class="d-flex justify-content-center">
 
                         <img class="rounded-custom img-fluid shadow-effect"
                              src="{{asset('images/homepage/section-5/5.png')}}"
-                             alt="" width="65%">
+                             alt="hoa-tien-image"  width="65%">
 
                 </div>
             </div>

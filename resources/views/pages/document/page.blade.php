@@ -8,7 +8,7 @@
             <div class="col-lg-4 col-xs-12 d-flex justify-content-center" style="height: 45vh; ">
                 <div class="w-100 d-flex justify-content-center pt-3" style="background-color: #F5F5F5">
                     <a target="_blank" href="{{asset('pdf/i7smart0711.pdf')}}" style="text-decoration: unset">
-                        <img src="{{asset('pdf/simoni7.png')}}" alt="" class="img-fluid"
+                        <img src="{{asset('pdf/simoni7.png')}}" alt="hoa-tien-image"  class="img-fluid"
                              style="object-fit: cover; height: 80%">
                         <div class=" montserrat-bold  pb-2 pt-4"
                             style="font-size: 22px; color: #207143;">
@@ -21,7 +21,7 @@
             <div class="col-lg-4 col-xs-12 d-flex justify-content-center" style="height: 45vh; ">
                 <div class="w-100 d-flex justify-content-center pt-3" style="background-color: #F5F5F5">
                     <a target="_blank" href="{{asset('pdf/CatalogueSimonProject2024.pdf')}}" style="text-decoration: unset">
-                        <img src="{{asset('pdf/switch.png')}}" alt="" class="img-fluid"
+                        <img src="{{asset('pdf/switch.png')}}" alt="hoa-tien-image"  class="img-fluid"
                              style="object-fit: cover; height: 80%">
                         <div class=" montserrat-bold  pb-2 pt-4"
                              style="font-size: 20px; color: #207143;">
@@ -34,7 +34,7 @@
             <div class="col-lg-4 col-xs-12 d-flex justify-content-center" style="height: 45vh; ">
                 <div class="w-100 d-flex justify-content-center pt-3" style="background-color: #F5F5F5">
                     <a target="_blank" href="{{asset('pdf/Catalogue-Lumi.pdf')}}" style="text-decoration: unset">
-                        <img src="{{asset('pdf/lumi.png')}}" alt="" class="img-fluid"
+                        <img src="{{asset('pdf/lumi.png')}}" alt="hoa-tien-image"  class="img-fluid"
                              style="object-fit: cover; height: 80%;">
                         <div class=" montserrat-bold  pb-2 pt-4"
                              style="font-size: 22px; color: #25AAE2;">
@@ -48,7 +48,7 @@
             <div class="col-lg-4 col-xs-12 d-flex justify-content-center" style="height: 45vh; ">
                 <div class="w-100 d-flex justify-content-center pt-3" style="background-color: #F5F5F5">
                     <a target="_blank" href="{{asset('pdf/i7smart0711.pdf')}}" style="text-decoration: unset">
-                        <img src="{{asset('pdf/simoni7.png')}}" alt="" class="img-fluid"
+                        <img src="{{asset('pdf/simoni7.png')}}" alt="hoa-tien-image"  class="img-fluid"
                              style="object-fit: cover; height: 80%">
                         <div class=" montserrat-bold  pb-2 pt-4"
                              style="font-size: 22px; color: #25AAE2;">
@@ -61,7 +61,7 @@
             <div class="col-lg-4 col-xs-12 d-flex justify-content-center" style="height: 45vh; ">
                 <div class="w-100 d-flex justify-content-center pt-3" style="background-color: #F5F5F5">
                     <a target="_blank" href="{{asset('pdf/CatalogueSimonProject2024.pdf')}}" style="text-decoration: unset">
-                        <img src="{{asset('pdf/switch.png')}}" alt="" class="img-fluid"
+                        <img src="{{asset('pdf/switch.png')}}" alt="hoa-tien-image"  class="img-fluid"
                              style="object-fit: cover; height: 80%">
                         <div class=" montserrat-bold  pb-2 pt-4"
                              style="font-size: 20px; color: #25AAE2;">
@@ -74,7 +74,7 @@
             <div class="col-lg-4 col-xs-12 d-flex justify-content-center" style="height: 45vh; ">
                 <div class="w-100 d-flex justify-content-center pt-3" style="background-color: #F5F5F5">
                     <a target="_blank"  href="{{asset('pdf/Catalogue-Lumi.pdf')}}" style="text-decoration: unset">
-                        <img src="{{asset('pdf/lumi.png')}}" alt="" class="img-fluid"
+                        <img src="{{asset('pdf/lumi.png')}}" alt="hoa-tien-image"  class="img-fluid"
                              style="object-fit: cover; height: 80%;">
                         <div class=" montserrat-bold  pb-2 pt-4"
                              style="font-size: 22px; color: #25AAE2;">
@@ -89,7 +89,7 @@
             <div class="col-lg-4 col-xs-12 d-flex justify-content-center" style="height: 45vh; ">
                 <div class="w-100 d-flex justify-content-center pt-3" style="background-color: #F5F5F5">
                     <a target="_blank" href="{{asset('pdf/i7smart0711.pdf')}}" style="text-decoration: unset">
-                        <img src="{{asset('pdf/simoni7.png')}}" alt="" class="img-fluid"
+                        <img src="{{asset('pdf/simoni7.png')}}" alt="hoa-tien-image"  class="img-fluid"
                              style="object-fit: cover; height: 80%">
                         <div class=" montserrat-bold  pb-2 pt-4"
                              style="font-size: 22px; color: #25AAE2;">
@@ -102,7 +102,7 @@
             <div class="col-lg-4 col-xs-12 d-flex justify-content-center" style="height: 45vh; ">
                 <div class="w-100 d-flex justify-content-center pt-3" style="background-color: #F5F5F5">
                     <a  target="_blank"  href="{{asset('pdf/CatalogueSimonProject2024.pdf')}}" style="text-decoration: unset">
-                        <img src="{{asset('pdf/switch.png')}}" alt="" class="img-fluid"
+                        <img src="{{asset('pdf/switch.png')}}" alt="hoa-tien-image"  class="img-fluid"
                              style="object-fit: cover; height: 80%">
                         <div class=" montserrat-bold  pb-2 pt-4"
                              style="font-size: 20px; color: #25AAE2;">
@@ -115,7 +115,7 @@
             <div class="col-lg-4 col-xs-12 d-flex justify-content-center" style="height: 45vh; ">
                 <div class="w-100 d-flex justify-content-center pt-3" style="background-color: #F5F5F5">
                     <a  target="_blank"  href="{{asset('pdf/Catalogue-Lumi.pdf')}}" style="text-decoration: unset">
-                        <img src="{{asset('pdf/lumi.png')}}" alt="" class="img-fluid"
+                        <img src="{{asset('pdf/lumi.png')}}" alt="hoa-tien-image"  class="img-fluid"
                              style="object-fit: cover; height: 80%;">
                         <div class=" montserrat-bold  pb-2 pt-4"
                              style="font-size: 22px; color: #25AAE2;">
@@ -133,7 +133,7 @@
             <div class="col-lg-4 col-xs-12 d-flex justify-content-center" style="height: 45vh; ">
                 <div class="w-100 d-flex justify-content-center pt-3" style="background-color: #F5F5F5">
                     <a href="{{asset('pdf/i7smart0711.pdf')}}" style="text-decoration: unset">
-                        <img src="{{asset('pdf/simoni7.png')}}" alt="" class="img-fluid"
+                        <img src="{{asset('pdf/simoni7.png')}}" alt="hoa-tien-image"  class="img-fluid"
                              style="object-fit: cover; height: 80%">
                         <div class=" montserrat-bold  pb-2 pt-4"
                              style="font-size: 22px; color: #25AAE2;">
@@ -146,7 +146,7 @@
             <div class="col-lg-4 col-xs-12 d-flex justify-content-center" style="height: 45vh; ">
                 <div class="w-100 d-flex justify-content-center pt-3" style="background-color: #F5F5F5">
                     <a href="{{asset('pdf/CatalogueSimonProject2024.pdf')}}" style="text-decoration: unset">
-                        <img src="{{asset('pdf/switch.png')}}" alt="" class="img-fluid"
+                        <img src="{{asset('pdf/switch.png')}}" alt="hoa-tien-image"  class="img-fluid"
                              style="object-fit: cover; height: 80%">
                         <div class=" montserrat-bold  pb-2 pt-4"
                              style="font-size: 20px; color: #25AAE2;">
@@ -159,7 +159,7 @@
             <div class="col-lg-4 col-xs-12 d-flex justify-content-center" style="height: 45vh; ">
                 <div class="w-100 d-flex justify-content-center pt-3" style="background-color: #F5F5F5">
                     <a href="{{asset('pdf/Catalogue-Lumi.pdf')}}" style="text-decoration: unset">
-                        <img src="{{asset('pdf/lumi.png')}}" alt="" class="img-fluid"
+                        <img src="{{asset('pdf/lumi.png')}}" alt="hoa-tien-image"  class="img-fluid"
                              style="object-fit: cover; height: 80%;">
                         <div class=" montserrat-bold  pb-2 pt-4"
                              style="font-size: 22px; color: #25AAE2;">
@@ -173,7 +173,7 @@
             <div class="col-lg-4 col-xs-12 d-flex justify-content-center" style="height: 45vh; ">
                 <div class="w-100 d-flex justify-content-center pt-3" style="background-color: #F5F5F5">
                     <a href="{{asset('pdf/i7smart0711.pdf')}}" style="text-decoration: unset">
-                        <img src="{{asset('pdf/simoni7.png')}}" alt="" class="img-fluid"
+                        <img src="{{asset('pdf/simoni7.png')}}" alt="hoa-tien-image"  class="img-fluid"
                              style="object-fit: cover; height: 80%">
                         <div class=" montserrat-bold  pb-2 pt-4"
                              style="font-size: 22px; color: #25AAE2;">
@@ -186,7 +186,7 @@
             <div class="col-lg-4 col-xs-12 d-flex justify-content-center" style="height: 45vh; ">
                 <div class="w-100 d-flex justify-content-center pt-3" style="background-color: #F5F5F5">
                     <a href="{{asset('pdf/CatalogueSimonProject2024.pdf')}}" style="text-decoration: unset">
-                        <img src="{{asset('pdf/switch.png')}}" alt="" class="img-fluid"
+                        <img src="{{asset('pdf/switch.png')}}" alt="hoa-tien-image"  class="img-fluid"
                              style="object-fit: cover; height: 80%">
                         <div class=" montserrat-bold  pb-2 pt-4"
                              style="font-size: 20px; color: #25AAE2;">

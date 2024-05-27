@@ -1,4 +1,5 @@
 <div class="section-3 " >
+    <h2 class="d-none"> Nghỉ Dưỡng và Sinh Thái Biển Tự Nhiên Vị Nhân Sinh</h2>
     <div class="hall-of-fame ">
         <div class="slick-carousel position-relative ">
             <button class="custom-prev-arrow-hall-of-fame" aria-label="Previous">
@@ -14,7 +15,7 @@
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
                              src="{{asset('images/homepage/section-3/1.png')}}"
-                             alt="">
+                             alt="hoa-tien-image" >
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
@@ -22,7 +23,7 @@
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
                              src="{{asset('images/homepage/section-3/2.png')}}"
-                             alt="">
+                             alt="hoa-tien-image" >
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
@@ -30,7 +31,7 @@
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
                              src="{{asset('images/homepage/section-3/3.png')}}"
-                             alt="">
+                             alt="hoa-tien-image" >
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
@@ -38,7 +39,7 @@
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
                              src="{{asset('images/homepage/section-3/4.png')}}"
-                             alt="">
+                             alt="hoa-tien-image" >
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
@@ -46,7 +47,7 @@
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
                              src="{{asset('images/homepage/section-3/5.png')}}"
-                             alt="">
+                             alt="hoa-tien-image" >
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
@@ -54,7 +55,7 @@
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
                              src="{{asset('images/homepage/section-3/6.png')}}"
-                             alt="">
+                             alt="hoa-tien-image" >
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
@@ -62,7 +63,7 @@
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
                              src="{{asset('images/homepage/section-3/7.png')}}"
-                             alt="">
+                             alt="hoa-tien-image" >
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
@@ -70,7 +71,7 @@
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
                              src="{{asset('images/homepage/section-3/8.png')}}"
-                             alt="">
+                             alt="hoa-tien-image" >
                     </div>
                 </div>
             </div>
