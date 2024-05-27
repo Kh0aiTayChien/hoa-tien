@@ -244,7 +244,7 @@
         text-align: center;
         width: 100vw;
         height: 100vh;
-        background-image: url("/images/homepage/section-8/bg8.png");
+        background-image: url("/images/homepage/section-8/bg8.webp");
         background-size: cover;
         background-repeat: no-repeat;
     }

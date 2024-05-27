@@ -217,7 +217,7 @@
         text-align: center;
         width: 100vw;
         height: 100vh;
-        background-image: url("/images/homepage/section-3/background.png");
+        background-image: url("/images/homepage/section-3/background.webp");
         background-size: cover;
         background-repeat: no-repeat;
     }

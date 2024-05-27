@@ -132,7 +132,7 @@
         text-align: center;
         width: 100vw;
         height: 100vh;
-        background-image: url("/images/homepage/section-5/slide1.png");
+        background-image: url("/images/homepage/section-5/slide1.webp");
         background-size: cover;
         background-repeat: no-repeat;
     }
