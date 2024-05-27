@@ -14,7 +14,7 @@
                     <div class="card rounded-custom me-1 border-0"
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
-                             src="{{asset('images/homepage/section-3/1.png')}}"
+                             src="{{asset('images/homepage/section-3/1.jpg')}}"
                              alt="hoa-tien-image" >
                     </div>
                 </div>
@@ -22,7 +22,7 @@
                     <div class="card rounded-custom me-1 border-0"
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
-                             src="{{asset('images/homepage/section-3/2.png')}}"
+                             src="{{asset('images/homepage/section-3/2.jpg')}}"
                              alt="hoa-tien-image" >
                     </div>
                 </div>
@@ -30,7 +30,7 @@
                     <div class="card rounded-custom me-1 border-0"
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
-                             src="{{asset('images/homepage/section-3/3.png')}}"
+                             src="{{asset('images/homepage/section-3/3.jpg')}}"
                              alt="hoa-tien-image" >
                     </div>
                 </div>
@@ -38,7 +38,7 @@
                     <div class="card rounded-custom me-1 border-0"
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
-                             src="{{asset('images/homepage/section-3/4.png')}}"
+                             src="{{asset('images/homepage/section-3/4.jpg')}}"
                              alt="hoa-tien-image" >
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                     <div class="card rounded-custom me-1 border-0"
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
-                             src="{{asset('images/homepage/section-3/5.png')}}"
+                             src="{{asset('images/homepage/section-3/5.jpg')}}"
                              alt="hoa-tien-image" >
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                     <div class="card rounded-custom me-1 border-0"
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
-                             src="{{asset('images/homepage/section-3/6.png')}}"
+                             src="{{asset('images/homepage/section-3/6.jpg')}}"
                              alt="hoa-tien-image" >
                     </div>
                 </div>
@@ -62,7 +62,7 @@
                     <div class="card rounded-custom me-1 border-0"
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
-                             src="{{asset('images/homepage/section-3/7.png')}}"
+                             src="{{asset('images/homepage/section-3/7.jpg')}}"
                              alt="hoa-tien-image" >
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                     <div class="card rounded-custom me-1 border-0"
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
-                             src="{{asset('images/homepage/section-3/8.png')}}"
+                             src="{{asset('images/homepage/section-3/8.jpg')}}"
                              alt="hoa-tien-image" >
                     </div>
                 </div>

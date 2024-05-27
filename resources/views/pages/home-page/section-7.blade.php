@@ -6,7 +6,7 @@
         <div class="carousel-inner">
 
             <div class="carousel-item active">
-                <img src="{{asset('images/homepage/section-7/sec7.jpg')}}" class="w-100" alt="hoa-tien-image" style="">
+                <img src="{{asset('images/homepage/section-7/sec7.webp')}}" class="w-100" alt="hoa-tien-image" style="">
             </div>
 
         </div>
