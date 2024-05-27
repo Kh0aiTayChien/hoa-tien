@@ -255,7 +255,7 @@
             text-align: center;
             width: 100vw; /* Đảm bảo chiếm 100% chiều rộng cửa sổ xem */
             height: auto; /* Chiều cao tự động điều chỉnh */
-            background-image: url("/images/homepage/section-8/bg8m.png");
+            background-image: url("/images/homepage/section-8/bg8m.jpg");
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
