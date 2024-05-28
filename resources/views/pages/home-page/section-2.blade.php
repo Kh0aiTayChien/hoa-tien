@@ -6,7 +6,7 @@
         <div class="carousel-inner">
 
             <div class="carousel-item active">
-                <img src="{{asset('images/homepage/section-2/sec2bg.webp')}}" class="img-fluid w-100" alt="hoa-tien-image" loading="lazy">
+                <img src="{{asset('images/homepage/section-2/Sec02.png')}}" class="img-fluid w-100" alt="hoa-tien-image" loading="lazy">
             </div>
 
         </div>

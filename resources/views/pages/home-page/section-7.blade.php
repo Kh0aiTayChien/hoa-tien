@@ -6,7 +6,7 @@
         <div class="carousel-inner">
 
             <div class="carousel-item active">
-                <img src="{{asset('images/homepage/section-7/sec7.webp')}}" class="w-100" alt="hoa-tien-image" loading="lazy" style="">
+                <img src="{{asset('images/homepage/section-7/Sec07.png')}}" class="w-100" alt="hoa-tien-image" loading="lazy" style="">
             </div>
 
         </div>
@@ -61,7 +61,7 @@
             text-align: center;
             width: 100vw; /* Đảm bảo chiếm 100% chiều rộng cửa sổ xem */
             height: 90vh; /* Chiều cao tự động điều chỉnh */
-            background-image: url("/images/homepage/section-7/7m.png");
+            background-image: url("/images/homepage/section-7/Sec07Mobile.png");
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;

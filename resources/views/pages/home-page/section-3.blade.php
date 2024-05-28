@@ -14,7 +14,7 @@
                     <div class="card rounded-custom me-1 border-0"
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
-                             src="{{asset('images/homepage/section-3/1.jpg')}}"
+                             src="{{asset('images/homepage/section-3/1.png')}}"
                              alt="hoa-tien-image" loading="lazy"  >
                     </div>
                 </div>
@@ -22,7 +22,7 @@
                     <div class="card rounded-custom me-1 border-0"
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
-                             src="{{asset('images/homepage/section-3/2.jpg')}}"
+                             src="{{asset('images/homepage/section-3/2.png')}}"
                              alt="hoa-tien-image" loading="lazy"  >
                     </div>
                 </div>
@@ -30,7 +30,7 @@
                     <div class="card rounded-custom me-1 border-0"
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
-                             src="{{asset('images/homepage/section-3/3.jpg')}}"
+                             src="{{asset('images/homepage/section-3/3.png')}}"
                              alt="hoa-tien-image" loading="lazy">
                     </div>
                 </div>
@@ -38,7 +38,7 @@
                     <div class="card rounded-custom me-1 border-0"
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
-                             src="{{asset('images/homepage/section-3/4.jpg')}}"
+                             src="{{asset('images/homepage/section-3/4.png')}}"
                              alt="hoa-tien-image" loading="lazy" >
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                     <div class="card rounded-custom me-1 border-0"
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
-                             src="{{asset('images/homepage/section-3/5.jpg')}}"
+                             src="{{asset('images/homepage/section-3/5.png')}}"
                              alt="hoa-tien-image" loading="lazy"  >
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                     <div class="card rounded-custom me-1 border-0"
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
-                             src="{{asset('images/homepage/section-3/6.jpg')}}"
+                             src="{{asset('images/homepage/section-3/6.png')}}"
                              alt="hoa-tien-image" loading="lazy"  >
                     </div>
                 </div>
@@ -62,7 +62,7 @@
                     <div class="card rounded-custom me-1 border-0"
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
-                             src="{{asset('images/homepage/section-3/7.jpg')}}"
+                             src="{{asset('images/homepage/section-3/7.png')}}"
                              alt="hoa-tien-image" loading="lazy" >
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                     <div class="card rounded-custom me-1 border-0"
                          style="width:65%; height: 80vh">
                         <img class="rounded-custom img-fluid shadow-effect"
-                             src="{{asset('images/homepage/section-3/8.jpg')}}"
+                             src="{{asset('images/homepage/section-3/8.png')}}"
                              alt="hoa-tien-image" loading="lazy" >
                     </div>
                 </div>
@@ -217,7 +217,7 @@
         text-align: center;
         width: 100vw;
         height: 100vh;
-        background-image: url("/images/homepage/section-3/background.webp");
+        background-image: url("/images/homepage/section-3/Sec03.png");
         background-size: cover;
         background-repeat: no-repeat;
     }

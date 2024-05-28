@@ -13,91 +13,91 @@
                 <div class="d-flex justify-content-center">
 
                         <img class="rounded-custom img-fluid shadow-effect"
-                             src="{{asset('images/homepage/section-8/1.jpg')}}"
+                             src="{{asset('images/homepage/section-8/1.png')}}"
                              alt="hoa-tien-image" loading="lazy"  style="width: 65%">
 
                 </div>
                 <div class="d-flex justify-content-center">
 
                     <img class="rounded-custom img-fluid shadow-effect"
-                         src="{{asset('images/homepage/section-8/2.jpg')}}"
+                         src="{{asset('images/homepage/section-8/2.png')}}"
                          alt="hoa-tien-image" loading="lazy"  style="width: 65%">
 
                 </div>
                 <div class="d-flex justify-content-center">
 
                     <img class="rounded-custom img-fluid shadow-effect"
-                         src="{{asset('images/homepage/section-8/3.jpg')}}"
+                         src="{{asset('images/homepage/section-8/3.png')}}"
                          alt="hoa-tien-image" loading="lazy"  style="width: 65%">
 
                 </div>
                 <div class="d-flex justify-content-center">
 
                     <img class="rounded-custom img-fluid shadow-effect"
-                         src="{{asset('images/homepage/section-8/4.jpg')}}"
+                         src="{{asset('images/homepage/section-8/4.png')}}"
                          alt="hoa-tien-image" loading="lazy"  style="width: 65%">
 
                 </div>
                 <div class="d-flex justify-content-center">
 
                     <img class="rounded-custom img-fluid shadow-effect"
-                         src="{{asset('images/homepage/section-8/5.jpg')}}"
+                         src="{{asset('images/homepage/section-8/5.png')}}"
                          alt="hoa-tien-image" loading="lazy"  style="width: 65%">
 
                 </div>
                 <div class="d-flex justify-content-center">
 
                     <img class="rounded-custom img-fluid shadow-effect"
-                         src="{{asset('images/homepage/section-8/6.jpg')}}"
+                         src="{{asset('images/homepage/section-8/6.png')}}"
                          alt="hoa-tien-image" loading="lazy"  style="width: 65%">
 
                 </div>
                 <div class="d-flex justify-content-center">
 
                     <img class="rounded-custom img-fluid shadow-effect"
-                         src="{{asset('images/homepage/section-8/7.jpg')}}"
+                         src="{{asset('images/homepage/section-8/7.png')}}"
                          alt="hoa-tien-image" loading="lazy"  style="width: 65%">
 
                 </div>
                 <div class="d-flex justify-content-center">
 
                     <img class="rounded-custom img-fluid shadow-effect"
-                         src="{{asset('images/homepage/section-8/8.jpg')}}"
+                         src="{{asset('images/homepage/section-8/8.png')}}"
                          alt="hoa-tien-image" loading="lazy"  style="width: 65%">
 
                 </div>
                 <div class="d-flex justify-content-center">
 
                     <img class="rounded-custom img-fluid shadow-effect"
-                         src="{{asset('images/homepage/section-8/9.jpg')}}"
+                         src="{{asset('images/homepage/section-8/9.png')}}"
                          alt="hoa-tien-image" loading="lazy"  style="width: 65%">
 
                 </div>
                 <div class="d-flex justify-content-center">
 
                     <img class="rounded-custom img-fluid shadow-effect"
-                         src="{{asset('images/homepage/section-8/10.jpg')}}"
+                         src="{{asset('images/homepage/section-8/10.png')}}"
                          alt="hoa-tien-image" loading="lazy"  style="width: 65%">
 
                 </div>
                 <div class="d-flex justify-content-center">
 
                     <img class="rounded-custom img-fluid shadow-effect"
-                         src="{{asset('images/homepage/section-8/11.jpg')}}"
+                         src="{{asset('images/homepage/section-8/11.png')}}"
                          alt="hoa-tien-image" loading="lazy"  style="width: 65%">
 
                 </div>
                 <div class="d-flex justify-content-center">
 
                     <img class="rounded-custom img-fluid shadow-effect"
-                         src="{{asset('images/homepage/section-8/12.jpg')}}"
+                         src="{{asset('images/homepage/section-8/12.png')}}"
                          alt="hoa-tien-image" loading="lazy"  style="width: 65%">
 
                 </div>
                 <div class="d-flex justify-content-center">
 
                     <img class="rounded-custom img-fluid shadow-effect"
-                         src="{{asset('images/homepage/section-8/13.jpg')}}"
+                         src="{{asset('images/homepage/section-8/13.png')}}"
                          alt="hoa-tien-image" loading="lazy"  style="width: 65%">
 
                 </div>
@@ -244,7 +244,7 @@
         text-align: center;
         width: 100vw;
         height: 100vh;
-        background-image: url("/images/homepage/section-8/bg8.webp");
+        background-image: url("/images/homepage/section-8/Sec8.png");
         background-size: cover;
         background-repeat: no-repeat;
     }
